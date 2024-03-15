@@ -1,7 +1,7 @@
 let myLeads = []
-const inputEl = document.getElementById("input-el")
-const inputBtn = document.getElementById("input-btn")
-const ulEl = document.getElementById("ul-el")
+const inputEl = document.getElementById("input-el") // input element object
+const inputBtn = document.getElementById("input-btn") // input button object
+const ulEl = document.getElementById("ul-el") // unorded list object
 const deleteBtn = document.getElementById("delete-btn")
 const leadsFromLocalStorage = JSON.parse( localStorage.getItem("myLeads") )
 const tabBtn = document.getElementById("tab-btn")
